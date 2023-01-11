@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Create SSH keys') {
+        stage('Run build.') {
             steps {
                 echo 'Running make run-build.'
                 sh 'make run-build'
