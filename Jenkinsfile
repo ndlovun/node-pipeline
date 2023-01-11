@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Create SSH keys') {
             steps {
-                echo 'Running make create-ssh-keys.'
+                echo 'Running make run-build.'
                 sh 'make run-build'
             }
         }
